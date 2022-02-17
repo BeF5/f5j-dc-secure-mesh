@@ -151,7 +151,7 @@ ____
 Service PolicyをActiveにする
 ==================
 
-**Manage** > **Service Policies** > **Active Policies** を選択
+**Manage** > **Service Policies** > **Active Service Policies** を選択
 
 .. image:: ../content06/images/image-06-19.png
   :width: 320
