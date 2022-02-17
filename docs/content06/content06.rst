@@ -82,6 +82,66 @@ ____
 .. image:: ../content06/images/image-06-07.png
   :width: 640
 
+____
+
+\ ``Add Item`` \ を押下
+
+.. image:: ../content06/images/image-06-08.png
+  :width: 640
+
+____
+
+任意のNameを設定し、\ ``Configure`` \ を押下
+
+.. image:: ../content06/images/image-06-09.png
+  :width: 640
+
+____
+
+要件に応じてRuleを設定し、\ ``Apply`` \ を押下
+
+.. image:: ../content06/images/image-06-10.png
+  :width: 640
+
+.. image:: ../content06/images/image-06-11.png
+  :width: 640
+
+.. image:: ../content06/images/image-06-12.png
+  :width: 640
+
+.. image:: ../content06/images/image-06-13.png
+  :width: 640
+
+.. image:: ../content06/images/image-06-14.png
+  :width: 640
+
+____
+
+\ ``Add Item`` \ を押下
+
+.. image:: ../content06/images/image-06-15.png
+  :width: 640
+
+____
+
+\ ``Apply`` \ を押下
+
+.. image:: ../content06/images/image-06-16.png
+  :width: 640
+
+____
+
+\ ``Save and Exit`` \ を押下
+
+.. image:: ../content06/images/image-06-17.png
+  :width: 640
+
+____
+
+設定したService Policyが追加されていることを確認
+
+.. image:: ../content06/images/image-06-18.png
+  :width: 640
 
 
 
