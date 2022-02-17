@@ -143,6 +143,57 @@ ____
 .. image:: ../content06/images/image-06-18.png
   :width: 640
 
+.. NOTE::
+   | Service Policyを作成しただけでは、ポリシーは有効になりません。
+   | ポリシーを有効にするには、次の手順にて、Service PolicyをActive化する必要があります。
+   
+
+Service PolicyをActiveにする
+==================
+
+**Manage** > **Service Policies** > **Active Policies** を選択
+
+.. image:: ../content06/images/image-06-19.png
+  :width: 320
+
+____
+
+\ ``Select Active Service Policies`` \ を押下
+
+.. image:: ../content06/images/image-06-20.png
+  :width: 640
+
+____
+
+\ ``Select Service Policy`` \ を押下
+
+.. image:: ../content06/images/image-06-21.png
+  :width: 640
+
+____
+
+ActiveにしたいService Policyを選択し、\ ``Select Service Policy`` \ を押下
+
+.. image:: ../content06/images/image-06-22.png
+  :width: 640
+
+____
+
+Service Policyがリストに追加されていることを確認し、\ ``Save and Exit`` \ を押下
+
+.. image:: ../content06/images/image-06-23.png
+  :width: 640
+
+____
+
+Active Service Policiesの一覧に表示されればOKです
+
+.. image:: ../content06/images/image-06-24.png
+  :width: 640
+
+____
+
+
 
 
 
