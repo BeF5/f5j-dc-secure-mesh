@@ -46,23 +46,26 @@ HTTP LBのVIPに対するL7アクセス制御
 Service PolicyでRuleを定義
 ==================
 
-\ ``Web App & API Protection`` \ を選択
+**Web App & API Protection** を選択
 
 .. image:: ../content06/images/image-06-02.png
   :width: 640
 
+____
 
-\ ``Manage``\ → \ ``Service Policies`` \ → \ ``Service Policies`` \ を選択
+**Manage** > **Service Policies** > **Service Policies** を選択
 
 .. image:: ../content06/images/image-06-03.png
   :width: 320
 
+____
 
 \ ``Add service policy`` \ を押下
 
 .. image:: ../content06/images/image-06-04.png
   :width: 480
 
+____
 
 設定内容の入力
 
@@ -72,6 +75,7 @@ Service PolicyでRuleを定義
 .. image:: ../content06/images/image-06-06.png
   :width: 640
 
+____
 
 \ ``Configure`` \ を押下
 
