@@ -68,21 +68,21 @@ WAF、Bot Protection用にApp Firewallを作成。
 ____
 
 .. image:: ../content09/images/image-09-05.png
-  :width: 800
+  :width: 1080
 
 
 App Firewall – WAF Custom
 ==================
 
 .. image:: ../content09/images/image-09-06.png
-  :width: 800
+  :width: 1080
 
 
 App Firewall – Bot Protection
 ==================
 
 .. image:: ../content09/images/image-09-07.png
-  :width: 800
+  :width: 1080
 
 
 HTTP LoadBalancer
@@ -91,21 +91,21 @@ HTTP LoadBalancer
 App FirewallをHTTP LBで指定。
 
 .. image:: ../content09/images/image-09-08.png
-  :width: 800
+  :width: 1080
 
 
 WAF イベント検知
 ==================
 
 .. image:: ../content09/images/image-09-09.png
-  :width: 800
+  :width: 1080
 
 
 Bot Protection イベント検知
 ==================
 
 .. image:: ../content09/images/image-09-10.png
-  :width: 800
+  :width: 1080
 
 
 Bot Defense
@@ -119,24 +119,24 @@ Bot DefenseをLBで定義。
 ____
 
 .. image:: ../content09/images/image-09-12.png
-  :width: 880
+  :width: 1080
 
 ____
 
 .. image:: ../content09/images/image-09-13.png
-  :width: 800
+  :width: 1080
 
 
 Bot Defense イベント検知
 ==================
 
 .. image:: ../content09/images/image-09-14.png
-  :width: 800
+  :width: 1080
 
 ____
 
 .. image:: ../content09/images/image-09-15.png
-  :width: 800
+  :width: 1080
 
 
 
