@@ -3,12 +3,11 @@ Service Policy
 ==============================================
 
 HTTP LBのVIPに対するL7アクセス制御
-==================
+==============================================
 
 送信元の指定
 
-
-.. list-table::
+   .. list-table::
     :header-rows: 1
     :stub-columns: 0
 
@@ -16,12 +15,10 @@ HTTP LBのVIPに対するL7アクセス制御
       - 説明
     * - IPv4 Prefix
       - 指定のネットワークアドレスからのアクセス
-    * - BGP ASN  
+    * - BGP ASN
       - 特定のAS番号からのアクセス
-    * - Country List 
+    * - Country List
       - 特定の国を指定（実態はグローバルIPアドレス）
-
-
     * - Rate Limiting
       - | HTTP LB VIPに対するレートリミット。
         | 送信元の識別子：IP Prefix、ASN、HTTP Cookie、HTTP Header Name等。
@@ -31,7 +28,7 @@ HTTP LBのVIPに対するL7アクセス制御
 
 宛先・リクエストの指定
 
-.. list-table::
+   .. list-table::
     :header-rows: 1
     :stub-columns: 0
 
@@ -61,23 +58,22 @@ HTTP LBのVIPに対するL7アクセス制御
   :width: 640
 
 
-
 Service PolicyでRuleを定義
-==================
+==============================================
 
 .. image:: ../content06/images/image-06-02.png
   :width: 1080
 
 
 Service PolicyでRuleを定義（Custom Rule List）
-==================
+==============================================
 
 .. image:: ../content06/images/image-06-03.png
   :width: 1080
 
 
 Service PolicyをActiveにする
-==================
+==============================================
 
 .. image:: ../content06/images/image-06-04.png
   :width: 1080
@@ -88,11 +84,10 @@ HTTP LoadBalancer
 ==============================================
 
 Service PolicyをHTTP LBで指定。
-==================
+==============================================
 
 .. image:: ../content06/images/image-06-05.png
   :width: 1080
-
 
 
 ==============================================
@@ -101,5 +96,6 @@ Service Policy イベント検知
 
 .. image:: ../content06/images/image-06-06.png
   :width: 1080
+
 
 
