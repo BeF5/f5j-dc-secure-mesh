@@ -108,9 +108,72 @@ Fleet
   :width: 1080
 
 
-aaa
+Routing BGP​
 ==============================================
 
-.. image:: images/image-01-01.png
+.. image:: images/image-01-12.png
   :width: 1080
 
+.. image:: images/image-01-13.png
+  :width: 1080
+
+
+BGPによるRoute冗長
+==============================================
+
+Siteがクラスター構成の場合、同じルートを各Nodeから配信し、ルート冗長が取れる。
+
+.. image:: images/image-01-04.png
+  :width: 1080
+
+
+Static Route
+==============================================
+Virtual Networkで定義。
+
+.. image:: images/image-01-15.png
+  :width: 1080
+
+Site Mesh Group
+==============================================
+ユーザデータのみSite-to-Siteで直接通信。コントロールプレーンはVolterra REを使用。
+
+.. image:: images/image-01-16.png
+  :width: 1080
+
+条件
+・ Spokeは複数Hubと接続できる。
+・ Hub Siteは別グループのSpokeになれるが、同一グループのHub兼Spokeになれない。
+・ IPSec-VPNのみ有効、SSL-VPNはサポートしない。
+・ Path MTU Discoveryはサポートしない。
+Spokeがトンネル構築のInitiator、HubがResponderの役割を担う。
+トンネルで使うIPアドレスがプライベートIPの場合、Responder側でUDP4500（NATトラバース）をポートマッピングする。
+
+Site Mesh Group用のラベルを作成。
+
+.. image:: images/image-01-17.png
+  :width: 1080
+
+HubとSpoke用のSiteを各々Virtual Siteでグルーピング。
+
+.. image:: images/image-01-18.png
+  :width: 1080
+
+IPSec VPNのトンネルIPアドレスとラベルを定義。
+
+.. image:: images/image-01-19.png
+  :width: 1080
+
+Site Mesh Group作成
+
+.. image:: images/image-01-20.png
+  :width: 1080
+
+
+ステータス確認
+==============================================
+
+.. image:: images/image-01-21.png
+  :width: 1080
+
+ 
