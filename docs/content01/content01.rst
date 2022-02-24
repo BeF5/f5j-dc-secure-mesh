@@ -1,16 +1,15 @@
 ==============================================
 Network CE Site
 ==============================================
-|Site Interface​
-|Virtual Network​
-|Network Connector​
-|Fleet​
-|疎通確認​
-|ローカルクライアントのNode冗長​
-|Routing BGP​
-|BGPによるルート冗長​
-|Static Route​
-|Site Mesh Group
+    Site Interface​
+    Virtual Network​
+    Network Connector​
+    Fleet​
+    ローカルクライアントのNode冗長​
+    Routing BGP​
+    BGPによるルート冗長​
+    Static Route​
+    Site Mesh Group
 
 Network
 ==============================================
@@ -50,16 +49,16 @@ Site Interface
 CE Siteのインタフェース設定 – Inside Interface
 ※Outside Interfaceの基本設定はSite構築時に作成済。
 
-.. image:: ../content06/images/image-01-02.png
+.. image:: images/image-01-02.png
   :width: 1080
 
-.. image:: ../content06/images/image-01-03.png
+.. image:: images/image-01-03.png
   :width: 1080
 
 CE Siteのインタフェース設定 – Outside Interface
 OutsideインタフェースでBGP Peerを張る場合に設定
 
-.. image:: ../content06/images/image-01-04.png
+.. image:: images/image-01-04.png
   :width: 1080
 
 Virtual Network
@@ -67,7 +66,7 @@ Virtual Network
 
 Site間でLAN-to-LAN通信をしたり、Siteからインターネットへアクセスするためのオーバーレイネットワーク。
 
-.. image:: ../content06/images/image-01-05.png
+.. image:: images/image-01-05.png
   :width: 1080
 
 
@@ -76,12 +75,12 @@ Network Connector
 
 Site間でLAN-to-LAN接続するために、SiteのInsideとVirtual Networkをコネクト。
 
-.. image:: ../content06/images/image-01-06.png
+.. image:: images/image-01-06.png
   :width: 1080
 
 SiteのInsideとインターネット接続。
 
-.. image:: ../content06/images/image-01-07.png
+.. image:: images/image-01-07.png
   :width: 1080
 
 Fleet
@@ -89,15 +88,15 @@ Fleet
 
 作成したInterfaceとNetwork Connector（Virtual Network指定済み）をSiteへ設定。
 
-.. image:: ../content06/images/image-01-08.png
+.. image:: images/image-01-08.png
   :width: 1080
 
-.. image:: ../content06/images/image-01-09.png
+.. image:: images/image-01-09.png
   :width: 1080
 
 作成したFleetをSiteへ定義（Siteへ設定が反映される）
 
-.. image:: ../content06/images/image-01-10.png
+.. image:: images/image-01-10.png
   :width: 1080
 
 ローカルクライアントのNode冗長
@@ -105,13 +104,13 @@ Fleet
 ローカルクライアントからのアクセスはデフォルトGWの冗長で切り替わる
 
 
-.. image:: ../content06/images/image-01-11.png
+.. image:: images/image-01-11.png
   :width: 1080
 
 
 aaa
 ==============================================
 
-.. image:: ../content06/images/image-01-01.png
+.. image:: images/image-01-01.png
   :width: 1080
 
