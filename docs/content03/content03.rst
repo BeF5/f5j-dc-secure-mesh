@@ -2,10 +2,6 @@
 Network Firewall CE Site
 ==============================================
 
-|Network Policy​
-|Forward Proxy Policy​
-|Fast ACL
-
 Virtual Network​
 ==============================================
 

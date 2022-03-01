@@ -2,10 +2,6 @@
 Network CSP Site
 ==============================================
 
-|Virtual Network​
-|Static Route​
-|Site Mesh Group
-
 Virtual Network​
 ==============================================
 
