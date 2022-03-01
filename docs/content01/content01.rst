@@ -2,15 +2,15 @@
 Network CE Site
 ==============================================
 
-|Site Interface​
-|Virtual Network​
-|Network Connector​
-|Fleet​
-|ローカルクライアントのNode冗長​
-|Routing BGP​
-|BGPによるルート冗長​
-|Static Route​
-|Site Mesh Group
+| Site Interface​
+| Virtual Network​
+| Network Connector​
+| Fleet​
+| ローカルクライアントのNode冗長​
+| Routing BGP​
+| BGPによるルート冗長​
+| Static Route​
+| Site Mesh Group
 
 Network
 ==============================================
