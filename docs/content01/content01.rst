@@ -132,13 +132,13 @@ Site Mesh Group
 .. image:: images/image-01-16.png
   :width: 1080
 
-条件
-・ Spokeは複数Hubと接続できる。
-・ Hub Siteは別グループのSpokeになれるが、同一グループのHub兼Spokeになれない。
-・ IPSec-VPNのみ有効、SSL-VPNはサポートしない。
-・ Path MTU Discoveryはサポートしない。
-Spokeがトンネル構築のInitiator、HubがResponderの役割を担う。
-トンネルで使うIPアドレスがプライベートIPの場合、Responder側でUDP4500（NATトラバース）をポートマッピングする。
+| 条件
+| ・ Spokeは複数Hubと接続できる。
+| ・ Hub Siteは別グループのSpokeになれるが、同一グループのHub兼Spokeになれない。
+| ・ IPSec-VPNのみ有効、SSL-VPNはサポートしない。
+| ・ Path MTU Discoveryはサポートしない。
+| Spokeがトンネル構築のInitiator、HubがResponderの役割を担う。
+| トンネルで使うIPアドレスがプライベートIPの場合、Responder側でUDP4500（NATトラバース）をポートマッピングする。
 
 Site Mesh Group用のラベルを作成。
 
