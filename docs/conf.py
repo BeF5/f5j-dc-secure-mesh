@@ -92,7 +92,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'F5ネットワークスジャパン テクニカルインフォ'
+project = u'F5 Distributed Cloud セットアップガイド（Mesh）'
 copyright = u'F5ネットワークスジャパン合同会社'
 author = u'F5ネットワークスジャパン合同会社'
 
