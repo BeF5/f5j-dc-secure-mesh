@@ -1,7 +1,7 @@
 .. You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-DCS セットアップガイド - Mesh編
+XC セットアップガイド - Mesh編
 ==============================================
 
 F5ネットワークジャパン テクニカルインフォへようこそ！このページでは、F5のエンジニアが、日々の活動の中で得た成果を日本語で発信いたします。記載の内容について、より詳しい情報を必要とされる方は、担当営業・SE または `F5への問い合わせ <https://interact.f5.com/ContactFormJP.html?ls=meta>`__ までご連絡ください。
